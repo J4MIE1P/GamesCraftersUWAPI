@@ -42,6 +42,19 @@ games = {
                 data_provider_variant_id=-1,
                 status='dev')
         }),
+    
+    '332ttt': Game(
+        name='3x3x2 Tic Tac Toe',
+        desc='3D Tic Tac Toe in Unity',
+        variants={
+            'default': GameVariant(
+                name='Regular',
+                desc='Regular',
+                data_provider=GamesmanClassicDataProvider,
+                data_provider_game_id='332ttt',
+                data_provider_variant_id=-1,
+                status='dev')
+        }),
 
     'chess': Game(
         name='Chess',
